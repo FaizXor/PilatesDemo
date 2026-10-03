@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+.desktop-only {
+    display: none;
+}
+
+@media (min-width: 769px) {
+    .desktop-only {
+        display: block; 
+    }
+}
+
 .outfit-normal {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
@@ -102,4 +112,81 @@ body{
     background-color: black;
     color: #cca95a;
     font-size: 20px;
+}
+
+.secondcontainer{
+    background-color: #a4884a;
+    padding: 30px 15px 30px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lessonbuttons{
+    display: flex;
+    align-self:center;
+    /*padding-bottom: 30px ;
+    padding-top: 30px;*/
+    gap: 50px;
+}
+
+.card-overlay{
+    width: 178px;
+    height: 281px;
+    border-radius: 30px;
+     overflow: hidden;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     justify-content: end;
+}
+
+.gradient{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.704), rgba(0, 0, 0, 0));    
+    position: absolute;
+    z-index: 100;
+}
+
+.card-overlay-img1{
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;       
+    transform: scale(1.7);   
+    object-position: center;
+}
+
+.card-overlay-img2{
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;       
+    transform: scale(1.5);   
+    object-position: center;
+}
+
+.header2{
+    font-family: "outfit-normal", sans-serif;
+    font-size: 40px;
+}
+
+.card-text{
+    position: absolute;
+    z-index: 200;
+    text-align: end;
+    color: #ffffff;
+    font-family: "outfit-normal", sans-serif; 
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: left;
 }
