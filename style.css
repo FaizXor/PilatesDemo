@@ -210,3 +210,26 @@ body{
     height: 79px;
     border-left: 3px solid #cca95a;
 }
+
+.valuelist{
+    display: flex;
+    background-color:  #a4884a;
+    padding: 30px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.valuetext{
+    font-family: "outfit-normal", sans-serif;
+    font-size: 20px;
+}
+
+.headeroflist{
+    font-family: "outfit-normal", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.valuetextcontent{
+    margin: 10px;
+}
