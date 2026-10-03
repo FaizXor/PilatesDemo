@@ -10,10 +10,16 @@
   font-style: normal;
 }
 
+.over-the-rainbow-regular {
+  font-family: "Over the Rainbow", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 body{
     display: flex;
     flex-direction: column;
-    gap: 16px;
 }
 
 #site-header{
@@ -46,4 +52,54 @@ body{
     margin: 0;
     padding: 0;
     margin-right: 20px;
+}
+
+.firstcontainer{
+    position: relative;
+    height: 563px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url('demoimage1.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 24px 20px;
+}
+
+.infocontainer {
+    color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.normalheader{
+    font-family: "outfit-normal", sans-serif;
+    font-size: 40px;
+}
+
+.pilatesheader{
+    font-family: "Over the Rainbow", sans-serif;
+    font-size: 74px;
+    margin: 0;           
+    line-height: 1.20;   
+    margin-top: -6px;
+}
+
+.signintext{
+    font-family: "outfit-normal", sans-serif;
+    font-size: 20px;
+}
+
+.signinbutton{
+    display: flex;
+    gap: 20px;
+    border-radius: 100px;
+    border: 3px solid black;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: #cca95a;
+    font-size: 20px;
 }
