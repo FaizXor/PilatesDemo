@@ -26,7 +26,6 @@
   font-style: normal;
 }
 
-
 body{
     display: flex;
     flex-direction: column;
@@ -295,7 +294,53 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
-    font-size: 30px;
+    font-size: 40px;
     font-family: "outfit-normal", sans-serif;
     color: rgb(209, 208, 208);
+}
+
+.sixthcontainer{
+    background-color: #a4884a;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.header4{
+    font-family: "outfit-normal", sans-serif;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.quotetext{
+    font-family: "Urbanist", sans-serif;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.reviewbox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: end;
+    margin-right: 15px;
+}
+
+.nametext{
+    font-family: "outfit-normal", sans-serif;
+    font-size: 28px;
+    margin-right: 25px;
+}
+
+.fivestarsrank{
+    display: flex;
+    padding-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.fivestarsrank img{
+    width: 120px;
+    height: auto;
 }
